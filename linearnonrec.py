@@ -1,4 +1,4 @@
-def linearnonrec(a, elem):
+def linear_non_recursion(a, elem):
     for i in range(len(a)):
         if a[i] == elem:
             return  i + 1
@@ -11,4 +11,4 @@ for i in range(n):
     a.append(x)
 elem = int(input("Enter the element to be searched: "))
 
-print(linearnonrec(a, elem))
+print(linear_non_recursion(a, elem))
